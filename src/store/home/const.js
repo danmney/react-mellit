@@ -1,0 +1,2 @@
+const ACTIVE_INDEX = "ACTIVE_INDEX"
+export {ACTIVE_INDEX}

@@ -1,0 +1,65 @@
+.header{
+    height: 0.75rem;
+    width: 100%;
+    background-color: #f2f2f2;
+    .header-top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.1rem;
+        width: 100%;
+        height: 0.45rem;
+        .logo{
+            width: 0.3rem;
+            height: 0.3rem;
+            img{
+                width: 100%;
+            }
+        }
+        .header-top-icon{
+            font-size: 0.3rem;
+            color:rgb(199, 194, 194)
+        }
+        .header-top-input{
+            position: relative;
+            span{
+                position: absolute;
+                left: 0.1rem;
+                top:0.1rem;
+            }
+            input{
+                width: 2.7rem;
+                height: 0.33rem;
+                border:0;
+                text-indent: .3rem;
+            }
+        }
+    }
+    .header-btom{
+        height: 0.3rem;
+        line-height: 0.3rem;
+        .swiper-slide{
+            width:auto;
+            padding: 0 0.16rem;
+            position: relative;
+            a{  
+               span{
+                    font-size: 0.14rem;
+                    color: rgb(116, 116, 116);
+                    &.active::after{
+                        content: "";
+                        width: 0.3rem;
+                        height: 0.01rem;
+                        background:orange;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        margin: 0 auto;
+                    }
+               }
+            }
+        }
+    }
+}
