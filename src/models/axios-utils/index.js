@@ -6,6 +6,6 @@ import Post from "./Post"
 Component.prototype.$get = Get;
 Component.prototype.$post = Post;
 
-export default {
+export {
     Get,Post
 }

@@ -7,6 +7,7 @@ import {Provider} from "react-redux"
 import store from "./store"
 //Swiper
 import "swiper/dist/css/swiper.min.css"
+import 'antd-mobile/dist/antd-mobile.css';
 //引入异步数据加载文件
 import "./models/axios-utils"
 //引入rem
@@ -17,7 +18,7 @@ import "./stylesheets/main.scss"
 ReactDOM.render(
 <Provider store = {store}>
 <Route>
-  <App />
+  <App/>
 </Route>
 </Provider>
 , document.getElementById('root'));

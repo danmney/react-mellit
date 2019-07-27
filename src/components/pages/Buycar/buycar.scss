@@ -1,0 +1,20 @@
+.buycar{
+    position: relative;
+    .am-navbar-light {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        background-color: #e0e0e0;
+        font-size: 0.14rem;
+        color: #666;
+        .am-navbar-title {
+            font-size: 0.14rem;
+        }
+        .am-icon-md {
+            width: 0.22rem;
+            height: 0.22rem;
+        }
+    }
+}

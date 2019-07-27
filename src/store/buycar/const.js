@@ -1,0 +1,3 @@
+const ADD_GOODS  = "ADD_GOODS"
+const SELECT = "SELECT"
+export {SELECT,ADD_GOODS}

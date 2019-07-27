@@ -1,0 +1,14 @@
+.content-iconImg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    .iconImg{
+        width: 0.75rem;
+        height: 0.79rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

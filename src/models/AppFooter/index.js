@@ -1,5 +1,5 @@
 import  React,{Component} from "react"
-import {NavLink} from "react-router-dom"
+import {NavLink,withRouter} from "react-router-dom"
 //引入样式
 import "./index.scss"
 class AppFooter extends Component{
@@ -34,4 +34,4 @@ AppFooter.defaultProps = {
         {id:4,title:"我的",icon:"user",path:"/mine",exact:false},
     ]
 }
-export default AppFooter
+export default withRouter(AppFooter)

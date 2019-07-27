@@ -3,10 +3,13 @@ import {NavLink,withRouter} from "react-router-dom"
 import Group from "../../../../models/Group"
 import Swiper from "swiper"
 class Navs extends Component{
-    componentWillReceiveProps(props){
+    componentDidMount(){
+        //初始化swiper
         this.initSwiper()
+    }
+    componentWillReceiveProps(props){
         let {pathname} = props.location
-        var index = 0;
+        var index = 1;
         switch(pathname){
             case "/home/recommend":
                 index = 1

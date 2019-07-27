@@ -1,0 +1,113 @@
+.goodslist{
+    width: 100%;
+    margin: 0.5rem 0 0.7rem 0;
+    background-color: #f6f6f6;
+    .goods{
+        background-color: #fff;
+        padding-bottom: 0.1rem;
+        margin-bottom: 0.2rem;
+    }
+    .goods-top{
+        width: 100%;
+        padding-top: 0.1rem;
+        margin-top:0.05rem;
+        display: flex;
+        align-items: center;
+        .select{
+            width: 0.45rem;
+            height: 0.45rem;
+            border-radius: 50%; 
+            line-height: 0.2rem;
+            margin:0 0.1rem;
+            span{
+                font-size: 0.22rem;
+            }
+            .am-checkbox.am-checkbox-checked .am-checkbox-inner {
+                border-color: #ff6700;
+                background: #ff6700;
+            }
+         
+        }
+        //图片
+        .img{
+            width: 0.78rem;
+            height: 0.78rem;
+            margin:0 0.15rem 0 0.1rem;
+            img{
+                width: auto;
+                height: 100%;
+            }
+        }
+        .desc{
+            align-self:flex-start;
+            display: flex;
+            flex-flow: column;
+            .title{
+               font-size: 0.13rem;
+               color: #666;
+            }
+            .price{
+                margin:0.1rem 0;
+                font-size: 0.12rem;
+                color: #999;
+            }
+            .btn{
+                width: 0.81rem;
+                height: 0.27rem;
+                display: flex;
+                span{
+                    flex:1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 0.16rem;
+                    border:1px solid #ccc;
+                    &:first-child{
+                        background-color: rgb(221, 221, 221);
+                    }
+                    &:last-child{
+                        background-color: rgb(221, 221, 221);
+                    }
+                }
+            }
+        }
+        //删除按钮
+        .remove{
+            width: 0.26rem;
+            height: 0.26rem;
+            margin-left: 1rem;
+            span{
+                font-size: 0.22rem;
+                color:rgb(184, 180, 180);
+            }
+        }
+
+    }
+    .shield,.shield1{
+        height: 0.36rem;
+        margin:0.1rem;
+        line-height: 0.36rem;
+        background-color: #f6f6f6;
+        span{
+            font-size: 0.13rem;
+            &:last-child{
+                margin-left: 1.4rem;
+                color: #ff5722;
+            }
+        }
+        .fa-shield{
+            vertical-align: middle;
+            font-size: 0.22rem;
+            margin:0 0.18rem;
+            color: rgb(12, 150, 230)
+        }
+    }
+    .shield1{
+        span{
+            font-size: 0.13rem;
+            &:last-child{
+                margin-left: 1.13rem; 
+            }
+        }
+    }
+}

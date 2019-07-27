@@ -1,0 +1,31 @@
+.parameterList{
+    width: 100%;
+    margin-top:.2rem;
+    display: flex;
+    align-items: center;
+    .parmeter-item{
+        width: 100%;
+        .swiper-slide{
+            width: 0.7rem;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            border-right: 1px solid #ccc;
+            &:last-child{
+                border:0;
+            }
+            p{  
+                width: 0.67rem;
+                text-align: center;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-size: 0.12rem;
+            }
+            span{
+                font-size: 0.12rem;
+            }
+        }
+    }
+}

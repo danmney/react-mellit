@@ -1,0 +1,70 @@
+.buylist{
+    width: 95%;
+    position: fixed;
+    bottom:0;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.2rem;
+    margin:0.1rem;
+    height: 0.46rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.1rem;
+    box-shadow: 0px 3px 10px #ccc;
+    .left{
+        display: flex;
+        position: relative;
+        span{
+            margin:0.1rem 0.1rem;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.1rem;
+            color: #666;
+            i{
+                font-size: 0.2rem;
+                color:rgb(170, 166, 166);
+            }
+        }
+        a{
+            margin:0.1rem 0.1rem;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.1rem;
+            color: #666;
+            i{
+                font-size: 0.2rem;
+                color:rgb(170, 166, 166);
+            }
+        
+        }
+        .number{
+            display: block;
+            width: 0.2rem;
+            height: 0.2rem;
+            text-align: center;
+            line-height: 0.2rem;
+            background-color: #d4d0d0;
+            color: #ff6700;
+            border-radius: 50%;
+            position: absolute;
+            left: 0.78rem;
+            top: -0.05rem;
+        }
+    }
+    .right{
+        .btn{
+            width: 1.05rem;
+            height: 0.3rem;
+            font-size: 0.12rem;
+            color: #666;
+            border-radius: 0.5rem;
+            background: #ff6700;
+            border:0;
+        }
+    }
+}
