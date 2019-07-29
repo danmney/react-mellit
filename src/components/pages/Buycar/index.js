@@ -1,5 +1,6 @@
 import  React,{Component} from "react"
 import "./buycar.scss"
+import {withRouter} from "react-router-dom"
 import BuycarFooter from "./buycarFooter"
 import GoodsList from "./goodsList"
 import { NavBar, Icon } from 'antd-mobile';
@@ -10,7 +11,7 @@ class Buycar extends Component{
                 <NavBar
                     mode="light"
                     icon={<Icon type="left" />}
-                    onLeftClick={() => console.log('onLeftClick')}
+                    onLeftClick={() => this.props.history.goBack()}
                     rightContent={[
                         <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
                     ]}
@@ -21,4 +22,4 @@ class Buycar extends Component{
         )
     }
 }
-export default Buycar
+export default withRouter(Buycar)

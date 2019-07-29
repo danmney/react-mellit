@@ -75,7 +75,8 @@
         .remove{
             width: 0.26rem;
             height: 0.26rem;
-            margin-left: 1rem;
+            position: absolute;
+            right: 0.2rem;
             span{
                 font-size: 0.22rem;
                 color:rgb(184, 180, 180);
